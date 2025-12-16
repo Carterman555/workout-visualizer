@@ -70,7 +70,7 @@ def main():
     # graph
     graph_parser = subparsers.add_parser('graph', help='Show a graph to visualize progress over time')
     graph_parser.add_argument('-e', '--exercise', help='name of exercise to graph')
-    graph_parser.add_argument('-a', '--all', action="store_true", help='name of exercise to graph')
+    graph_parser.add_argument('-a', '--all', action="store_true", help='graph all exercises')
 
     # import strong data
     strong_parser = subparsers.add_parser('strong', help='Import data from Strong app')
